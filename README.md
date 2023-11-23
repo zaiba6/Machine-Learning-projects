@@ -18,6 +18,6 @@ After careful examination of the graphs for both the 2nd and 5th-degree polynomi
 The linear regression model appears to be underfitting, indicating a generalized trend but lacking specificity. 
 On the other hand, the 5th-degree polynomial regression exhibits signs of overfitting, capturing specific data trends but risking accuracy in predictions. 
 The low training error for the 5th degree reinforces this notion, indicating an overfitting scenario. 
-	In contrast, the 2nd-degree polynomial regression strikes a balance, demonstrating accuracy and effective generalization of the data.
+In contrast, the 2nd-degree polynomial regression strikes a balance, demonstrating accuracy and effective generalization of the data.
 
-	In conclusion, the 2nd-degree polynomial regression model emerges as the optimal choice for accurately modelling the relationship between age and salary in this dataset.
+In conclusion, the 2nd-degree polynomial regression model emerges as the optimal choice for accurately modelling the relationship between age and salary in this dataset.
