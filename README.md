@@ -1,8 +1,8 @@
-#Polynomial Regression Analysis
+#Polynomial Regression Analysis <br />
 	This project utilizes polynomial regression to model the intricate relationship between age and salary. 
 	Two polynomial regressions of 2nd and 5th degrees are employed to determine the most effective model for the given dataset.
 
-#Data Preprocessing
+#Data Preprocessing<br />
 	The dataset is evenly split into training and testing sets, with each comprising 50% of the data. 
 	The scikit-learn class 'PolynomialFeatures' is then utilized to transform the input features (Age) into polynomial features of specified degrees (2, 5) for both training and testing.
 
