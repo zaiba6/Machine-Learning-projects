@@ -1,23 +1,39 @@
-#Polynomial Regression Analysis <br />
+# Polynomial Regression Analysis <br />
 This project utilizes polynomial regression to model the intricate relationship between age and salary. 
 Two polynomial regressions of 2nd and 5th degrees are employed to determine the most effective model for the given dataset.
 
-#Data Preprocessing<br />
+## Data Preprocessing <br />
 The dataset is evenly split into training and testing sets, with each comprising 50% of the data. 
 The scikit-learn class 'PolynomialFeatures' is then utilized to transform the input features (Age) into polynomial features of specified degrees (2, 5) for both training and testing.
 
-#Model Implementation <br />
+## Model Implementation <br />
 The model is based on linear regression and is trained using the transformed polynomial features alongside the corresponding target variables. 
 Training and testing errors are calculated by determining the standard deviation of each dataset to evaluate the model's performance.
 
-#Visualization <br />
-To provide a visual understanding, the data is displayed through a scatter plot, with the regression lines plotted separately. Each section of the code generates distinct visualizations for the various regressions.
+### Training and Testing Errors <br />
+After model training, the project evaluates its performance on both the training and testing datasets. 
+Here are the training and testing errors for the 2nd-degree and 5th-degree polynomial regressions:
 
-#Conclusion <br />
+#### Degree 2 Polynomial Regression: <br />
+**Training Error:** 32,932.08  
+**Testing Error:** 33,553.77
+
+#### Degree 5 Polynomial Regression: <br />
+**Training Error:** 12,902.20  
+**Testing Error:** 38,793.93
+
+## Visualization <br />
+To provide a visual understanding, the data is displayed through a scatter plot, with the regression lines plotted separately.
+Each section of the code generates distinct visualizations for the various regressions.
+
+## Conclusion <br />
 After careful examination of the graphs for both the 2nd and 5th-degree polynomial regressions, it is evident that the 2nd-degree polynomial model is the most suitable for this dataset. 
-The linear regression model appears to be underfitting, indicating a generalized trend but lacking specificity. 
-On the other hand, the 5th-degree polynomial regression exhibits signs of overfitting, capturing specific data trends but risking accuracy in predictions. 
-The low training error for the 5th degree reinforces this notion, indicating an overfitting scenario. 
-In contrast, the 2nd-degree polynomial regression strikes a balance, demonstrating accuracy and effective generalization of the data.
 
-In conclusion, the 2nd-degree polynomial regression model emerges as the optimal choice for accurately modelling the relationship between age and salary in this dataset.
+**Degree 2 Model:** 
+Demonstrates a balanced performance with moderate errors on both training and testing sets.
+The errors are reasonably close, indicating effective generalization without overfitting or underfitting.
+
+**Degree 5 Model:** 
+Exhibits low training error but a significantly higher testing error.
+Suggests overfitting, where the model fits the training data too closely but struggles to generalize to new, unseen data.
+     
