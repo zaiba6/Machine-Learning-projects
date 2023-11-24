@@ -8,7 +8,7 @@ The following libraries are needed in Python: NumPy, ScikitLearn, Matplotlib, Pa
 
 ## Data Preprocessing <br />
 The dataset is split into training, testing and validation sets. 
-The training set includes the first 1800 rows, the Validation set includes rows 600 rows, and the testing set includes around 500 rows. 
+The training set includes the first 1800 rows, the Validation set includes rows 600 rows, and the testing set includes the remaining 500 rows. 
 
 ## Code Integration <br />
 The heart of the experiment lies in the script bagging_lasso_experiment.py. 
@@ -29,7 +29,6 @@ The heart of the experiment lies in the script bagging_lasso_experiment.py.
 - For each prediction, the error is calculated as the standard deviation of "target value y_train minus the prediction."
 
 ## Conclusion <br />
-Ensure that you have replaced the dataset path in the code before running.
 It can be seen that the error typically decreases as the number of models used in each prediction increases (bagging). 
 The experiment aims to visualize the reduction in error as a function of the number of models averaged to make the prediction.
 A decision tree model for individual predictions and its information is printed and visualized.
