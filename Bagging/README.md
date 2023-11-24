@@ -26,7 +26,8 @@ The heart of the experiment lies in the script bagging_lasso_experiment.py.
 - Subsequent predictions involve averaging the outputs of an increasing number of Lasso models.
 
 4. **Error Calculation:**
-- For each prediction, the error is calculated as the standard deviation of "target value y_train minus the prediction."
+- Prediction errors are calculated for each iteration of the bagging process.
+- The code concludes with a visualization that illustrates how the prediction error, measured in standard deviation, changes as more models are averaged during the bagging process.
 
 ## Conclusion <br />
 It can be seen that the error typically decreases as the number of models used in each prediction increases (bagging). 
