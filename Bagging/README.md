@@ -1,14 +1,10 @@
 # Bagging with Lasso Models: A Machine Learning Experiment <br />
-This repository contains code for a machine-learning experiment involving the use of many lasso regressions to predict house prices. 
+This project contains code for a machine-learning experiment involving the use of many lasso regressions to predict house prices. 
 The primary objective is to demonstrate how the error of predictions typically decreases as the number of models used in each prediction increases through bagging. 
 The experiment involves creating and training 100 Lasso models, each on a different random sample of 900 observations from the original 1800 data points in the training set.
 
 ## Requirements <br />
-The following libraries are needed in Python:
-NumPy
-ScikitLearn
-Matplotlib
-Pandas
+The following libraries are needed in Python: NumPy, ScikitLearn, Matplotlib, Pandas
 
 ## Data Preprocessing <br />
 The dataset is split into training, testing and validation sets. 
