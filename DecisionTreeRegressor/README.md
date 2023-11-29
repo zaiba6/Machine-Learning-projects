@@ -42,3 +42,7 @@ The Python code is implemented in the `decisionTree.py` file. The key components
   These are the predicted prices for the first eight samples in your validation set.
 
 The decision tree will be visualized and displayed using Matplotlib.
+
+## Sources <br /> 
+This is a citation for the dataset that I used for this project 
+Mitchell, T. M. (n.d.). In Machine Learning Third Edition Resources. Rotman School of Management, University of Toronto. https://www-2.rotman.utoronto.ca/~hull/MLThirdEditionFiles/mlindex1_3rdEd.html 
