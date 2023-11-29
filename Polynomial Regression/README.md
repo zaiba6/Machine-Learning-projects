@@ -36,4 +36,8 @@ The errors are reasonably close, indicating effective generalization without ove
 **Degree 5 Model:** 
 Exhibits low training error but a significantly higher testing error.
 Suggests overfitting, where the model fits the training data too closely but struggles to generalize to new, unseen data.
+
+## Sources <br /> 
+This is a citation for the dataset that I used for this project
+Mitchell, T. M. (n.d.). In Machine Learning Third Edition Resources. Rotman School of Management, University of Toronto. https://www-2.rotman.utoronto.ca/~hull/MLThirdEditionFiles/mlindex1_3rdEd.html 
      
