@@ -33,3 +33,7 @@ The heart of the experiment lies in the script bagging_lasso_experiment.py.
 It can be seen that the error typically decreases as the number of models used in each prediction increases (bagging). 
 The experiment aims to visualize the reduction in error as a function of the number of models averaged to make the prediction.
 A decision tree model for individual predictions and its information is printed and visualized.
+
+## Sources <br /> 
+This is a citation for the dataset that I used for this project.  
+Mitchell, T. M. (n.d.). In Machine Learning Third Edition Resources. Rotman School of Management, University of Toronto. https://www-2.rotman.utoronto.ca/~hull/MLThirdEditionFiles/mlindex1_3rdEd.html 
