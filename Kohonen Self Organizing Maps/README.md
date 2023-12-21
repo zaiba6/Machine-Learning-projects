@@ -1,10 +1,9 @@
 # Self-Organizing Map (SOM) Clustering with Kohonen's Algorithm <br>
 
-## Overview
 This Python script implements Kohonen's Self-Organizing Map (SOM) clustering algorithm to partition a synthetic dataset into distinct clusters. The generated clusters are visualized in a 3D space, where data points are coloured based on their assigned clusters, and centroids are marked with black 'X' markers. 
 
 ## Dependencies
-NumPy: Used for efficient array manipulation.
+NumPy: Used for efficient array manipulation. <br>
 Matplotlib: Employed for data visualization.
 
 ## Project Details
