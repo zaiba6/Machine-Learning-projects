@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
 # Read data from Excel
-data = pd.read_excel(r'Data_DecisionTree.xlsx') 
+data = pd.read_excel(r'/Users/zaiba/Documents/GitHub/Machine-Learning-projects/DecisionTreeRegressor/Data_DecisionTree.xlsx') 
 print(data.head())
 
 # Split the data into train, val, and test sets
