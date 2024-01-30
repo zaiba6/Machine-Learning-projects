@@ -1,4 +1,4 @@
-# Self-Organizing Map (SOM) Clustering with Kohonen's Algorithm <br>
+# Self-Organizing Map (SOM) Clustering with Kohonen's Algorithm (Kohonen.py) <br>
 
 This Python script implements Kohonen's Self-Organizing Map (SOM) clustering algorithm to partition a synthetic dataset into distinct clusters. The generated clusters are visualized in a 3D space, where data points are coloured based on their assigned clusters, and centroids are marked with black 'X' markers. 
 
@@ -18,3 +18,5 @@ The resulting clusters and centroids are visualized in a 3D plot using Matplotli
 
 ## Inspiration
 This project draws inspiration from the Kohonen_SOM project on GitHub. Their work's visualization techniques and clustering approaches have been adapted and expanded upon for this project.
+
+# Self-Organizing Map (SOM) species clustering penguins (SOM_penguins.py) <br>
