@@ -50,4 +50,7 @@ The SOM is trained on the preprocessed data using the PCA initialization method.
 ## Clustering and Visualization
 1. The script computes the quantization error, providing a measure of how well the SOM has learned the input data.
 2. Each data point is mapped to its winning neuron, and cluster labels are assigned based on the coordinates of the winning neurons.
-3. The results are visualized in a scatter plot, where each point represents a penguin, colored and organized according to its assigned cluster label.
+3. The results are visualized in a scatter plot (Penguin.png), where each point represents a penguin, colored and organized according to its assigned cluster label. 
+
+## Final remarks
+There is one outlier in the data that stands out. Originally, the dataset underwent a k-means algorithm application, which is indeed more appropriate for addressing this clustering challenge.
