@@ -30,7 +30,7 @@ grid_size = int(np.sqrt(5 * num_rows))
 
 # Initialize the som_shape tuple
 som_shape = (grid_size, grid_size)
-print(num_rows, num_columns, som_shape)
+#print(num_rows, num_columns, som_shape)
 
 # Initialize the SOM
 som = MiniSom(som_shape[0], som_shape[1], input_len=num_columns, sigma=1.5, learning_rate = 1.5,
